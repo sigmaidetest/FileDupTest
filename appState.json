@@ -9,7 +9,8 @@
         "isDirectory": true,
         "children": [
           "17b5d022-540f-4356-aa07-a0f901f9c45c",
-          "075ba40b-7543-4782-a625-d546765ef723"
+          "075ba40b-7543-4782-a625-d546765ef723",
+          "6dd315f9-83d8-4dd1-adde-41463d678498"
         ],
         "isRemovable": false,
         "filePath": "FileDupTest"
@@ -43,15 +44,27 @@
         "isRemovable": true,
         "filePath": "FileDupTest/data.json",
         "code": "[\n    {\n        \"name\": \"mike\",\n        \"age\": 10\n    }\n]"
+      },
+      "6dd315f9-83d8-4dd1-adde-41463d678498": {
+        "id": "6dd315f9-83d8-4dd1-adde-41463d678498",
+        "parent": "0d7dcb09-ecdd-449e-80ca-86785db5d5a0",
+        "name": "new-data.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FileDupTest/new-data.json",
+        "code": "[\n    {\n        \"name\": \"mike\",\n        \"age\": 10\n    },\n    {\n        \"name\": \"Jane\",\n        \"age\": 12\n    }\n]"
       }
     },
     "deletedFiles": [],
     "rootNode": "0d7dcb09-ecdd-449e-80ca-86785db5d5a0",
     "openFiles": [
       "17b5d022-540f-4356-aa07-a0f901f9c45c",
-      "075ba40b-7543-4782-a625-d546765ef723"
+      "075ba40b-7543-4782-a625-d546765ef723",
+      "6dd315f9-83d8-4dd1-adde-41463d678498"
     ],
-    "currentFileId": "075ba40b-7543-4782-a625-d546765ef723",
+    "currentFileId": "6dd315f9-83d8-4dd1-adde-41463d678498",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -78,7 +91,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553677099088
+    "lastSave": 1553677175636
   },
   "VCS_STATE": {
     "provider": "GitHub",
